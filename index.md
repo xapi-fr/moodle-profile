@@ -1,5 +1,5 @@
 - ## Moodle Profile
-    - [About](/profiles/moodle/readme)
+    - [About](/profiles/moodle)
     - [Identification](/profiles/moodle/id)
     - [Concepts](/profiles/moodle/concepts)
     - [Statements](/profiles/moodle/statements)
@@ -7,5 +7,5 @@
     - [Events: H5P](/profiles/moodle/hvp)
 
 - ## xAPI.fr
-    - [About](/profiles/xapi/readme)
+    - [About](/profiles/xapi)
 
