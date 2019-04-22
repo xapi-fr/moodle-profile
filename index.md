@@ -6,6 +6,3 @@
     - [Events: Nav](/profiles/moodle/nav)
     - [Events: H5P](/profiles/moodle/hvp)
 
-- ## xAPI.fr
-    - [About](/profiles/xapi)
-
