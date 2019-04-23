@@ -10,7 +10,7 @@
 <a name="agents"></a>
 ## Agents
 
-VLE profile rules apply.
+- As specified by the VLE profile, the `account` format is used to identify the agents.
 
 
 <a name="activities"></a>
