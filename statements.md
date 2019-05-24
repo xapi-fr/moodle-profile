@@ -32,7 +32,14 @@
 - [Logged-In](nav#logged-in)
 - [Logged-Out](nav#logged-out)
 - [Navigated-In Course](nav#nav-in-course)
+- [Navigated-In Course Category](nav#nav-in-course-category)
 - [Navigated-In Module](nav#nav-in-module)
+
+
+<a name="comp"></a>
+## Completion statements
+
+- [Completed Course](comp#completed-course)
 
 
 <a name="hvp"></a>

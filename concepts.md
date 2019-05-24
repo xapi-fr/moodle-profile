@@ -147,6 +147,11 @@
 - **type:** `http://vocab.xapi.fr/activities/course`
 - **platform-concept:** `course`
 
+### Course Category
+
+- **type:** `http://vocab.xapi.fr/activities/course-category`
+- **platform-concept:** `course_category`
+
 
 
 
