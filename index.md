@@ -3,7 +3,9 @@
     - [Identification](/profiles/moodle/id)
     - [Concepts](/profiles/moodle/concepts)
     - [Statements](/profiles/moodle/statements)
-    - [Events: Navigation](/profiles/moodle/nav)
-    - [Events: Completion](/profiles/moodle/comp)
-    - [Events: H5P](/profiles/moodle/hvp)
+    - [> Authentication](/profiles/moodle/events_auth)
+    - [> Navigation](/profiles/moodle/events_nav)
+    - [> Completion](/profiles/moodle/events_comp)
+    - [> Result](/profiles/moodle/events_result)
+    - [> H5P](/profiles/moodle/events_hvp)
 

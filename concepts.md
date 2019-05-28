@@ -134,9 +134,9 @@
 
 ### H5P
 
-- **type:** `http://vocab.xapi.fr/activities/poll` (question unique) ou `http://vocab.xapi.fr/activities/quiz` (quiz et jeu de questions)
-- **platform-concept:** `hvp-poll` (question unique) ou `hvp-quiz` (quiz ou questions set)
-- **concept-family:** `feedback` (question unique) ou `assessment` (quiz ou questions set)
+- **type:** `http://vocab.xapi.fr/activities/poll` (single question) or `http://vocab.xapi.fr/activities/quiz` (question set)
+- **platform-concept:** `hvp-poll` (single question) ou `hvp-quiz` (question set)
+- **concept-family:** `feedback` (single question) ou `assessment` (question set)
 
 
 <a name="structural"></a>
