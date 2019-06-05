@@ -89,7 +89,10 @@ This Statement is generated from the `\mod_hvp\event\course_module_viewed` event
                 }
             ],
         },
-        "platform": "Moodle"
+        "platform": "Moodle",
+        "extensions": {
+            "http://vocab.xapi.fr/extensions/platform-event": "\\mod_hvp\\event\\course_module_viewed"
+        }
     },
     "timestamp": "2018-06-20T16:04:17+08:00"
 }
@@ -116,7 +119,7 @@ This Statement is generated from the `\logstore_trax\event\hvp_quiz_completed` e
         }
     },
     "verb": {
-        "id": "http://adlnet.gov/expapi/verbs/completed"
+        "id": "http://adlnet.gov/expapi/verbs/failed"
     },
     "object": {
         "objectType": "Activity",
@@ -181,7 +184,10 @@ This Statement is generated from the `\logstore_trax\event\hvp_quiz_completed` e
                 }
             ],
         },
-        "platform": "Moodle"
+        "platform": "Moodle",
+        "extensions": {
+            "http://vocab.xapi.fr/extensions/platform-event": "\\logstore_trax\\event\\hvp_quiz_completed"
+        }
     },
     "timestamp": "2018-06-20T16:04:17+08:00"
 }
@@ -283,7 +289,10 @@ This Statement is generated from the `\logstore_trax\event\hvp_quiz_question_ans
                 }
             ],
         },
-        "platform": "Moodle"
+        "platform": "Moodle",
+        "extensions": {
+            "http://vocab.xapi.fr/extensions/platform-event": "\\logstore_trax\\event\\hvp_quiz_question_answered"
+        }
     },
     "timestamp": "2018-06-20T16:04:17+08:00"
 }
@@ -398,7 +407,10 @@ This Statement is generated from the `\logstore_trax\event\hvp_single_question_a
                 }
             ]
         },
-        "platform": "Moodle"
+        "platform": "Moodle",
+        "extensions": {
+            "http://vocab.xapi.fr/extensions/platform-event": "\\logstore_trax\\event\\hvp_single_question_answered"
+        }
     },
     "timestamp": "2018-06-20T16:04:17+08:00"
 }

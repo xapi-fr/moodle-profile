@@ -70,7 +70,10 @@ This Statement is generated from the `\core\event\course_completed` Moodle event
                 }
             ]
         },
-        "platform": "Moodle"
+        "platform": "Moodle",
+        "extensions": {
+            "http://vocab.xapi.fr/extensions/platform-event": "\\core\\event\\course_completed"
+        }
     },
     "timestamp": "2018-06-20T16:04:17+08:00"
 }
@@ -153,7 +156,10 @@ This Statement is generated from the `\xxx\event\course_module_completion_update
                 }
             ]
         },
-        "platform": "Moodle"
+        "platform": "Moodle",
+        "extensions": {
+            "http://vocab.xapi.fr/extensions/platform-event": "\\mod_forum\\event\\course_module_completion_updated"
+        }
     },
     "timestamp": "2018-06-20T16:04:18+08:00"
 }

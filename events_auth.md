@@ -44,7 +44,10 @@ This Statement is generated from the `\core\event\user_loggedin` Moodle event.
                 }
             ]
         },
-        "platform": "Moodle"
+        "platform": "Moodle",
+        "extensions": {
+            "http://vocab.xapi.fr/extensions/platform-event": "\\core\\event\\user_loggedin"
+        }
     },
     "timestamp": "2018-06-20T16:04:17+08:00"
 }
@@ -89,7 +92,10 @@ This Statement is generated from the `\core\event\user_loggedout` Moodle event.
                 }
             ]
         },
-        "platform": "Moodle"
+        "platform": "Moodle",
+        "extensions": {
+            "http://vocab.xapi.fr/extensions/platform-event": "\\core\\event\\user_loggedout"
+        }
     },
     "timestamp": "2018-06-20T16:04:17+08:00"
 }
