@@ -7,5 +7,6 @@
     - [> Navigation](/profiles/moodle/events_nav)
     - [> Completion](/profiles/moodle/events_comp)
     - [> Result](/profiles/moodle/events_result)
+    - [> Video](/profiles/moodle/events_vid)
     - [> H5P](/profiles/moodle/events_hvp)
 

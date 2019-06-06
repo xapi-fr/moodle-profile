@@ -12,12 +12,12 @@
 <a name="common-rules"></a>
 ## Common rules
 
-- All VLE and Moodle profile rules apply.
-- The H5P `actor` MUST be replaced by the actor as it is defined for all the other Statements.
-- The H5P `verb` MAY be kept without the `display` property.
-- The H5P `object` MUST be modified depending of its type (see below).
-- The H5P `result` MUST be kept without modification.
-- The H5P `context` MUST be replaced by the context as it is defined for equivalent Statements.
+- The `actor` MUST be replaced by the authenticated user, as defined by the VLE profile.
+- The `verb.id` MUST be adapted depending of the `result` properties (see below).
+- The `verb.display` property MAY be removed.
+- The `object` MUST be adapted depending of its type (see below).
+- The `context` MUST be adapted in order to conform with the Moodle profile.
+- All other elements of the statements MUST be kept without modification.
 
 
 <a name="course-module-viewed"></a>
