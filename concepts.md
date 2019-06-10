@@ -132,11 +132,44 @@
 - **platform-concept:** `workshop`
 - **concept-family:** `production`
 
-### H5P
 
-- **type:** `http://vocab.xapi.fr/activities/poll` (single question) or `http://vocab.xapi.fr/activities/quiz` (question set)
-- **platform-concept:** `hvp-poll` (single question) ou `hvp-quiz` (question set)
-- **concept-family:** `feedback` (single question) ou `assessment` (question set)
+<a name="h5p-concepts"></a>
+
+### H5P Single Question
+
+- **type:** `http://vocab.xapi.fr/activities/poll`
+- **platform-concept:** `hvp-single-question`
+- **concept-family:** `feedback`
+
+### H5P Quiz
+
+- **type:** `http://vocab.xapi.fr/activities/quiz`
+- **platform-concept:** `hvp-quiz`
+- **concept-family:** `assessment`
+
+### H5P Summary
+
+- **type:** `http://vocab.xapi.fr/activities/quiz`
+- **platform-concept:** `hvp-summary`
+- **concept-family:** `assessment`
+
+### H5P Interactive Video
+
+- **type:** `http://vocab.xapi.fr/activities/interactive-video`
+- **platform-concept:** `hvp-interactive-video`
+- **concept-family:** `resource`
+
+### H5P Course Presentation
+
+- **type:** `http://vocab.xapi.fr/activities/web-content`
+- **platform-concept:** `hvp-course-presentation`
+- **concept-family:** `resource`
+
+### H5P Column
+
+- **type:** `http://vocab.xapi.fr/activities/web-content`
+- **platform-concept:** `hvp-column`
+- **concept-family:** `resource`
 
 
 <a name="structural"></a>
