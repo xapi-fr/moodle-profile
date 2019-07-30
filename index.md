@@ -9,4 +9,5 @@
     - [> Result](/profiles/moodle/events_result)
     - [> Video](/profiles/moodle/events_vid)
     - [> H5P](/profiles/moodle/events_hvp)
+    - [> SCORM Lite](/profiles/moodle/events_scormlite)
 

@@ -101,10 +101,22 @@
 - **platform-concept:** `quiz`
 - **concept-family:** `assessment`
 
+### SCO
+
+- **type:** `http://adlnet.gov/expapi/activities/lesson`
+- **standard:** `scorm`
+
 ### SCORM Package
 
 - **type:** `http://vocab.xapi.fr/activities/web-content`
 - **platform-concept:** `scorm`
+- **concept-family:** `resource`
+- **standard:** `scorm`
+
+### SCORM Lite
+
+- **type:** `http://vocab.xapi.fr/activities/web-content`
+- **platform-concept:** `scormlite`
 - **concept-family:** `resource`
 - **standard:** `scorm`
 
