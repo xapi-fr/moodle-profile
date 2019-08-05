@@ -10,4 +10,5 @@
     - [> Video](/profiles/moodle/events_vid)
     - [> H5P](/profiles/moodle/events_hvp)
     - [> SCORM Lite](/profiles/moodle/events_scormlite)
+    - [> Assessment Path](/profiles/moodle/events_assessmentpath)
 
