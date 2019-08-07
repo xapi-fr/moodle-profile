@@ -1,4 +1,4 @@
-# Moodle Profile: Video Statements
+# Moodle / VLE Profile: Video Statements
 
 ---
 
@@ -13,7 +13,7 @@
 - Statements MUST conform with the [xAPI Video Profile](https://liveaspankaj.gitbooks.io/xapi-video-profile/content/).
 - The `actor` MUST be replaced by the authenticated user, as defined by the VLE profile.
 - The `verb.display` property MAY be removed.
-- The `context` MUST be adapted in order to conform with the Moodle profile.
+- The `context` MUST be adapted in order to conform with the Moodle / VLE Profile.
 - All other elements of the statements MUST be kept without modification.
 
 

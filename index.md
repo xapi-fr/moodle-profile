@@ -1,12 +1,13 @@
-- ## Moodle Profile
+- ## Moodle / VLE Profile
     - [About](/profiles/moodle)
     - [Identification](/profiles/moodle/id)
+    - [Vocabulary](/profiles/moodle/vocab)
     - [Concepts](/profiles/moodle/concepts)
     - [Statements](/profiles/moodle/statements)
     - [> Authentication](/profiles/moodle/events_auth)
     - [> Navigation](/profiles/moodle/events_nav)
     - [> Completion](/profiles/moodle/events_comp)
-    - [> Result](/profiles/moodle/events_result)
+    - [> Grading](/profiles/moodle/events_result)
     - [> Video](/profiles/moodle/events_vid)
     - [> H5P](/profiles/moodle/events_hvp)
     - [> SCORM Lite](/profiles/moodle/events_scormlite)

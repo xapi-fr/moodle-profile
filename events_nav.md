@@ -1,4 +1,4 @@
-# Moodle Profile: Navigation Statements
+# Moodle / VLE Profile: Navigation Statements
 
 ---
 

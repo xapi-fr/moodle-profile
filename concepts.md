@@ -1,4 +1,4 @@
-# Moodle Profile: Concepts
+# Moodle / VLE Profile: Concepts
 
 ---
 
@@ -9,6 +9,13 @@
 <a name="learning"></a>
 ## Learning Activity
 
+
+### Assessment Path
+
+- **type:** `http://vocab.xapi.fr/activities/web-content`
+- **platform-concept:** `assessmentpath`
+- **concept-family:** `resource`
+- **standard:** `scorm`
 
 ### Assignment
 
@@ -103,7 +110,7 @@
 
 ### SCO
 
-- **type:** `http://adlnet.gov/expapi/activities/lesson`
+- **type:** `http://vocab.xapi.fr/activities/content-object`
 - **standard:** `scorm`
 
 ### SCORM Package

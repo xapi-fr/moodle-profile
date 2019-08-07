@@ -1,4 +1,4 @@
-# Moodle Profile: Completion Statements
+# Moodle / VLE Profile: Completion Statements
 
 ---
 

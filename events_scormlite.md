@@ -1,31 +1,59 @@
-# Moodle Profile: SCORM Lite Statements
+# Moodle / VLE Profile: SCORM Lite Statements
 
 ---
 
-- [Common Rules for Attempts](#attempt-common-rules)
+- [Supported Statements](#statements)
+- [Common Rules for Attempt Statements](#attempt-common-rules)
+- [Common Rules for SCO and Activity Statements](#sco-common-rules)
 - [Launched Attempt](#launched-attempt)
 - [Initialized Attempt](#initialized-attempt)
 - [Completed Attempt](#completed-attempt)
 - [Passed/Failed Attempt](#passed-failed-attempt)
 - [Terminated Attempt](#terminated-attempt)
-- [Passed/Failed SCO (Learner)](#passed-failed-sco-learner)
-- [Passed/Failed SCO (Instructor)](#passed-failed-sco-instructor)
-- [Navigated-In Module](#nav-in-module)
+- [Passed/Failed SCO (Obtained by Learner)](#passed-failed-sco-learner)
+- [Passed/Failed SCO (Changed by Instructor)](#passed-failed-sco-instructor)
+- [Reset SCO Results (by Instructor)](#reset-sco)
+
+
+<a name="statements"></a>
+## Supported Statements
+
+### Attempt Statements
+- Launched Attempt
+- Initialized Attempt
+- Completed Attempt
+- Passed / Failed Attempt
+- Terminated Attempt
+
+### SCO Statements
+- Passed/Failed SCO (obtained by learner)
+- Passed/Failed SCO (changed by instructor)
+- Reset SCO Results (by instructor)
+
+### Activity Statements
+- Navigated-In Activity (on Moodle viewed event)
+- Completed Activity (on Moodle completion event)
+- Scored Activity (on Moodle grading event)
 
 
 <a name="attempt-common-rules"></a>
-## Common Rules for Attempts
-
-When the object of the Statement is a SCO, the following rules apply:
+## Common Rules for Attempt Statements
 
 - The `id` property MUST be defined (UUID).
-- The `object.definition.type` property MUST be `http://adlnet.gov/expapi/activities/lesson`.
+- The `object` property MUST be a SCO activity.
+- The `object.id` property MUST be the SCORM Lite activity ID followed by `/sco`.
 - The `context.registration` property MUST be defined (UUID). It MAY use the course UUID as the enrolment in Moodle is managed at the course level.
 - The `context.contextActivities.parent` property MUST include the Moodle SCORM Lite activity.
 - The `context.contextActivities.category` property MUST include a granularity level set to `inside-learning-unit`.
 - The `context.contextActivities.category` property MUST include the CMI5 profile, with its `id` and `type`.
 - The `attempt-id` extension of the `context` MUST define the number of the current attempt (starting from 1). 
 - The `sessionid` extension of the `context` MUST define a common session UUID for all the statements of a session. 
+
+
+<a name="sco-common-rules"></a>
+## Common Rules for SCO and Activity Statements
+
+- The `object` property MUST be the Moodle SCORM Lite activity.
 
 
 <a name="launched-attempt"></a>
@@ -55,7 +83,10 @@ This Statement is generated from the `\mod_scormlite\event\attempt_launched` Moo
         "objectType": "Activity",
         "id": "http://xapi.moodle.test/xapi/activities/scormlite/86e15642-5e46-45c2-8fd2-7c88d2e37edf/sco",
         "definition": {
-            "type": "http://adlnet.gov/expapi/activities/lesson"
+            "type": "http://vocab.xapi.fr/activities/content-object",
+            "extensions": {
+                "http://vocab.xapi.fr/extensions/standard": "scorm"
+            }
         }
     },
     "context": {
@@ -152,7 +183,10 @@ This Statement is generated from the `\mod_scormlite\event\attempt_initialized` 
         "objectType": "Activity",
         "id": "http://xapi.moodle.test/xapi/activities/scormlite/86e15642-5e46-45c2-8fd2-7c88d2e37edf/sco",
         "definition": {
-            "type": "http://adlnet.gov/expapi/activities/lesson"
+            "type": "http://vocab.xapi.fr/activities/content-object",
+            "extensions": {
+                "http://vocab.xapi.fr/extensions/standard": "scorm"
+            }
         }
     },
     "context": {
@@ -249,7 +283,10 @@ This Statement is generated from the `\mod_scormlite\event\attempt_completed` Mo
         "objectType": "Activity",
         "id": "http://xapi.moodle.test/xapi/activities/scormlite/86e15642-5e46-45c2-8fd2-7c88d2e37edf/sco",
         "definition": {
-            "type": "http://adlnet.gov/expapi/activities/lesson"
+            "type": "http://vocab.xapi.fr/activities/content-object",
+            "extensions": {
+                "http://vocab.xapi.fr/extensions/standard": "scorm"
+            }
         }
     },
     "result": {
@@ -344,7 +381,10 @@ This Statement is generated from the `\mod_scormlite\event\attempt_passed` and `
         "objectType": "Activity",
         "id": "http://xapi.moodle.test/xapi/activities/scormlite/86e15642-5e46-45c2-8fd2-7c88d2e37edf/sco",
         "definition": {
-            "type": "http://adlnet.gov/expapi/activities/lesson"
+            "type": "http://vocab.xapi.fr/activities/content-object",
+            "extensions": {
+                "http://vocab.xapi.fr/extensions/standard": "scorm"
+            }
         }
     },
     "result": {
@@ -445,7 +485,10 @@ This Statement is generated from the `\mod_scormlite\event\attempt_terminated` M
         "objectType": "Activity",
         "id": "http://xapi.moodle.test/xapi/activities/scormlite/86e15642-5e46-45c2-8fd2-7c88d2e37edf/sco",
         "definition": {
-            "type": "http://adlnet.gov/expapi/activities/lesson"
+            "type": "http://vocab.xapi.fr/activities/content-object",
+            "extensions": {
+                "http://vocab.xapi.fr/extensions/standard": "scorm"
+            }
         }
     },
     "result": {
@@ -519,7 +562,7 @@ This Statement is generated from the `\mod_scormlite\event\attempt_terminated` M
 
 
 <a name="passed-failed-sco-learner"></a>
-## Passed/Failed SCO (Learner)
+## Passed/Failed SCO (Obtained by Learner)
 
 This Statement is generated from the `\mod_scormlite\event\sco_result_updated` Moodle event, after a new attempt and when the retained score for the activity changed.
 
@@ -624,18 +667,15 @@ This Statement is generated from the `\mod_scormlite\event\sco_result_updated` M
 
 
 <a name="passed-failed-sco-instructor"></a>
-## Passed/Failed SCO (Instructor)
+## Passed/Failed SCO (Changed by Instructor)
 
 This Statement is generated from the `\mod_scormlite\event\sco_result_changed` Moodle event, when an instructor manually changes the score of a learner.
-It differs from the previous one on the following rules: 
 
-- The `result.duration` property MUST NOT be set.
-- The `context.instructor` property MUST be set.
-- The `attempt-id` extension of the `context` MUST NOT be set.
-- The `attempts-number` extension of the `context` MUST NOT be set. 
-- The `max-attempts` extension of the `context` MUST NOT be set. 
-- The `scoring-method` extension of the `context` MUST NOT be set.
-- The `max-time` extension of the `context` MUST NOT be set.
+- The `actor` property MUST be the learner.
+- The `result.success` property MUST be set according to the verb (`true` for a `passed` Statement, `false` for a `failed` Statement).
+- The `result.score` property MUST define the relevant score, including its `min`, `max`, `raw` and `scaled` values.
+- The `masteryscore` extension of the `context` MUST define the passing score of the activity.
+- The `context.instructor` property MUST define the instructor who changed the result.
 
 
 ```json
@@ -728,10 +768,91 @@ It differs from the previous one on the following rules:
 ```
 
 
-<a name="nav-in-module"></a>
-## Navigated-In Module
+<a name="reset-sco"></a>
+## Reset SCO Results (by Instructor)
 
-This Statement is generated from the `\mod_scormlite\event\course_module_viewed` event 
-and follows the same rules than other modules (see [navigation events](events_nav#nav-in-module)).
+This Statement is generated from the `\mod_scormlite\event\sco_result_reset` Moodle event, when an instructor manually reset the attempts of a learner.
 
+- The `actor` property MUST be the instructor who reset the result.
+- The `learner` extension of the `context` MUST be defined.
+
+
+```json
+{
+    "actor": {
+        "objectType": "Agent",
+        "account": {
+            "name": "d0d6cd21-bbea-4179-a7e9-affdea1a1d84",
+            "homePage": "http://xapi.moodle.test"
+        }
+    },
+    "verb": {
+        "id": "http://vocab.xapi.fr/verbs/reset"
+    },
+    "object": {
+        "objectType": "Activity",
+        "id": "http://xapi.moodle.test/xapi/activities/scormlite/86e15642-5e46-45c2-8fd2-7c88d2e37edf",
+        "definition": {
+            "type": "http://vocab.xapi.fr/activities/web-content",
+            "name": {
+                "en": "SCORM Lite activity"
+            },
+            "description": {
+                "en": "SCORM Lite activity description"
+            },
+            "extensions": {
+                "http://vocab.xapi.fr/extensions/platform-concept": "scormlite",
+                "http://vocab.xapi.fr/extensions/concept-family": "resource",
+                "http://vocab.xapi.fr/extensions/standard": "scorm"
+            }
+        }
+    },
+    "context": {
+        "contextActivities": {
+            "parent": [
+                {
+                    "id": "http://xapi.moodle.test/xapi/activities/course/54b9d6f3-c14b-4abf-b613-f5e5fb5ecd40",
+                    "definition": {
+                        "type": "http://vocab.xapi.fr/activities/course"
+                    }
+                }
+            ],
+            "grouping": [
+                {
+                    "id": "http://xapi.moodle.test",
+                    "definition": {
+                        "type": "http://vocab.xapi.fr/activities/system"
+                    }
+                }
+            ],
+            "category": [
+                {
+                    "id": "http://vocab.xapi.fr/categories/learning-unit",
+                    "definition": {
+                        "type": "http://vocab.xapi.fr/activities/granularity-level"
+                    }
+                },
+                {
+                    "id": "http://vocab.xapi.fr/categories/vle-profile",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                }
+            ],
+        },
+        "platform": "Moodle",
+        "extensions": {
+            "http://vocab.xapi.fr/extensions/platform-event": "\\mod_scormlite\\event\\sco_result_reset",
+            "http://vocab.xapi.fr/extensions/learner": {
+                "objectType": "Agent",
+                "account": {
+                    "name": "d0d6cd21-bbea-4179-a7e9-affdea1a1d85",
+                    "homePage": "http://xapi.moodle.test"
+                }
+            }
+        }
+    },
+    "timestamp": "2018-06-20T16:04:17+08:00"
+}
+```
 

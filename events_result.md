@@ -1,4 +1,4 @@
-# Moodle Profile: Result Statements
+# Moodle / VLE Profile: Grading Statements
 
 ---
 

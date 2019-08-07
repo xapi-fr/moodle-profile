@@ -1,4 +1,4 @@
-# Moodle Profile: Authentication Statements
+# Moodle / VLE Profile: Authentication Statements
 
 ---
 

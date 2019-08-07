@@ -1,14 +1,30 @@
-# Moodle Profile: H5P Statements
+# Moodle / VLE Profile: H5P Statements
 
 ---
 
+- [Supported Statements](#statements)
 - [Common rules](#common-rules)
 - [Question Answered](#question-answered)
 - [Summary Answered](#summary-answered)
 - [Quiz Completed](#quiz-completed)
 - [Course Presentation Completed](#pres-completed)
 - [Navigated-In Course Presentation](#nav-in-pres)
-- [Navigated-In Module](#nav-in-module)
+
+
+<a name="statements"></a>
+## Supported Statements
+
+### H5P Statements
+- Question Answered
+- Summary Answered
+- Quiz Completed
+- Course Presentation Completed
+- Navigated-In Course Presentation
+
+### Activity Statements
+- Navigated-In Activity (on Moodle viewed event)
+- Completed Activity (on Moodle completion event)
+- Scored Activity (on Moodle grading event)
 
 
 <a name="common-rules"></a>
@@ -19,7 +35,7 @@ The following rules apply for all the H5P generated statements:
 - The `actor` MUST be replaced by the authenticated user, as defined by the VLE profile.
 - The `verb.id` MUST be adapted depending of the `result` properties (`passed`, `failed`, `scored`, `completed`).
 - The `verb.display` property MAY be removed.
-- The `object` and the `context` MUST be adapted to conform with the Moodle profile.
+- The `object` and the `context` MUST be adapted to conform with the Moodle / VLE Profile.
 - The `object.extensions` which are H5P-specific MAY be removed.
 - The `context.contextActivities.parent` of H5P nested activities MUST be the direct parent of the `object` as it is defined in the H5P statement.
 - All other elements of the statements MUST be kept without modification.
@@ -482,14 +498,5 @@ or `inside-learning-unit` (when the Quiz is embedded inside the H5P activity).
     "timestamp": "2018-06-20T16:04:17+08:00"
 }
 ```
-
-
-
-<a name="nav-in-module"></a>
-## Navigated-In Module
-
-This Statement is generated from the `\mod_hvp\event\course_module_viewed` event 
-and follows the same rules than other modules (see [navigation events](events_nav#nav-in-module)), 
-except that the object type MUST be adapted depending of the H5P content type (see [H5P concepts](concepts#h5p)).
 
 

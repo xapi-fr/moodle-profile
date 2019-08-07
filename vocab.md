@@ -1,0 +1,131 @@
+# Moodle / VLE Profile: Vocabulary
+
+---
+
+- [Verbs](#verbs)
+- [Activity Types](#activities)
+- [Extensions](#extensions)
+
+
+<a name="verbs"></a>
+## Verbs
+
+### Authentication
+
+- **Logged-in** to the platform: `https://w3id.org/xapi/adl/verbs/logged-in`
+- **Logged-out** from the platform: `https://w3id.org/xapi/adl/verbs/logged-out`
+
+### Navigation
+
+- **Navigated-in** the platform: `http://vocab.xapi.fr/verbs/navigated-in`
+
+### Completion
+
+- **Completed** something: `http://adlnet.gov/expapi/verbs/completed`
+
+### Result
+
+- **Passed** something: `http://adlnet.gov/expapi/verbs/passed`
+- **Failed** something: `http://adlnet.gov/expapi/verbs/failed`
+- **Scored** something: `http://adlnet.gov/expapi/verbs/scored`
+
+### Execution Flow
+
+- **Launched** content: `http://adlnet.gov/expapi/verbs/launched`
+- **Initialized** content: `http://adlnet.gov/expapi/verbs/initialized`
+- **Terminated** content: `http://adlnet.gov/expapi/verbs/terminated`
+
+### Management Flow
+
+- **Reset** learner results: `http://vocab.xapi.fr/verbs/reset`
+
+
+<a name="activities"></a>
+## Activity Types
+
+### Learning Activity
+
+**Resource**
+
+- Collaborative Content: `http://vocab.xapi.fr/activities/collaborative-content`
+- File: `http://adlnet.gov/expapi/activities/file`
+- Resource Collection: `http://vocab.xapi.fr/activities/resources`
+- Web Content: `http://vocab.xapi.fr/activities/web-content`
+- Web Page: `http://vocab.xapi.fr/activities/web-page`
+- Web Link: `http://vocab.xapi.fr/activities/web-link`
+
+**Discussion**
+
+- Chat Channel: `http://id.tincanapi.com/activitytype/chat-channel`
+- Chat Room: `http://vocab.xapi.fr/activities/chat-room`
+- Forum: `http://vocab.xapi.fr/activities/forum`
+- Forum Discussion: `http://id.tincanapi.com/activitytype/discussion`
+
+**Production**
+
+- Assignment: `http://vocab.xapi.fr/activities/assignment`
+- Workshop: `http://vocab.xapi.fr/activities/workshop`
+
+**Feedback**
+
+- Poll: `http://vocab.xapi.fr/activities/poll`
+- Survey: `http://vocab.xapi.fr/activities/survey`
+
+**Assessment**
+
+- Quiz: `http://vocab.xapi.fr/activities/quiz`
+
+**Unclassified**
+
+- External Activity: `http://adlnet.gov/expapi/activities/external-activity`
+
+
+### Learning Sub-Activity
+
+**SCORM**
+
+- Content Object (SCO): `http://vocab.xapi.fr/activities/content-object`
+
+**Training Path**
+
+- Training Sequence: `http://vocab.xapi.fr/activities/training-sequence`
+
+
+### Structural Activity
+
+- Course: `http://vocab.xapi.fr/activities/course`
+- Course Category: `http://vocab.xapi.fr/activities/course-category`
+- System: `http://vocab.xapi.fr/activities/system`
+
+
+### Statement Category
+
+- Granularity Level: `http://vocab.xapi.fr/activities/granularity-level`
+- Profile: `http://adlnet.gov/expapi/activities/profile`
+
+
+
+<a name="extensions"></a>
+## Extensions
+
+### Activity Extensions
+
+- Concept Family: `http://vocab.xapi.fr/extensions/concept-family`
+- Platform Concept: `http://vocab.xapi.fr/extensions/platform-concept`
+- Standard: `http://vocab.xapi.fr/extensions/standard`
+
+### Context Extensions
+
+- Content Attempt: `http://id.tincanapi.com/extension/attempt-id`
+- Content Attempts Number: `http://vocab.xapi.fr/extensions/attempts-number`
+- Content Launch Method: `http://vocab.xapi.fr/extensions/launch-method`
+- Content Launch Mode: `https://w3id.org/xapi/cmi5/context/extensions/launchmode`
+- Content Mastery Score: `https://w3id.org/xapi/cmi5/context/extensions/masteryscore`
+- Content Max Attempts: `http://vocab.xapi.fr/extensions/max-attempts`
+- Content Max Time: `http://vocab.xapi.fr/extensions/max-time`
+- Content Scoring Method: `http://vocab.xapi.fr/extensions/scoring-method`
+- Content Session: `https://w3id.org/xapi/cmi5/context/extensions/sessionid`
+- Learner: `http://vocab.xapi.fr/extensions/learner`
+- Platform Event: `http://vocab.xapi.fr/extensions/platform-event`
+
+
