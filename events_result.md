@@ -2,11 +2,11 @@
 
 ---
 
-- [Module Graded](#module-graded)
+- [Course Module Graded](#module-graded)
 
 
 <a name="module-graded"></a>
-## Module Graded
+## Course Module Graded
 
 
 ### Generation

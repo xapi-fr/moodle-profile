@@ -88,7 +88,12 @@
 
 **Training Path**
 
+- Training Program: `http://vocab.xapi.fr/activities/training-program`
+- Training Phase: `http://vocab.xapi.fr/activities/training-phase`
+- Training Module: `http://vocab.xapi.fr/activities/training-module`
 - Training Sequence: `http://vocab.xapi.fr/activities/training-sequence`
+- Onsite Classroom: `http://vocab.xapi.fr/activities/face-to-face`
+- Virtual Classroom: `http://vocab.xapi.fr/activities/live-session`
 
 
 ### Structural Activity
@@ -108,11 +113,23 @@
 <a name="extensions"></a>
 ## Extensions
 
+
 ### Activity Extensions
 
 - Concept Family: `http://vocab.xapi.fr/extensions/concept-family`
 - Platform Concept: `http://vocab.xapi.fr/extensions/platform-concept`
 - Standard: `http://vocab.xapi.fr/extensions/standard`
+- Duration: `http://id.tincanapi.com/extension/duration`
+- Mandatory: `http://vocab.xapi.fr/extensions/mandatory`
+- Position: `http://id.tincanapi.com/extension/position`
+- Remedial: `http://vocab.xapi.fr/extensions/remedial`
+
+
+### Result Extensions
+
+- Remedial Score: `http://vocab.xapi.fr/extensions/remedial-score`
+- Remedial Success: `http://vocab.xapi.fr/extensions/remedial-success`
+
 
 ### Context Extensions
 
@@ -126,6 +143,7 @@
 - Content Scoring Method: `http://vocab.xapi.fr/extensions/scoring-method`
 - Content Session: `https://w3id.org/xapi/cmi5/context/extensions/sessionid`
 - Learner: `http://vocab.xapi.fr/extensions/learner`
+- Page: `http://vocab.xapi.fr/extensions/page`
 - Platform Event: `http://vocab.xapi.fr/extensions/platform-event`
 
 

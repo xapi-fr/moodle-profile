@@ -11,7 +11,7 @@
 - [Passed/Failed Attempt](#passed-failed-attempt)
 - [Terminated Attempt](#terminated-attempt)
 - [Passed/Failed SCO (Obtained by Learner)](#passed-failed-sco-learner)
-- [Passed/Failed SCO (Changed by Instructor)](#passed-failed-sco-instructor)
+- [Passed/Failed SCO (Forced by Instructor)](#passed-failed-sco-instructor)
 - [Reset SCO Results (by Instructor)](#reset-sco)
 
 
@@ -27,13 +27,13 @@
 
 ### SCO Statements
 - Passed/Failed SCO (obtained by learner)
-- Passed/Failed SCO (changed by instructor)
+- Passed/Failed SCO (forced by instructor)
 - Reset SCO Results (by instructor)
 
-### Activity Statements
-- Navigated-In Activity (on Moodle viewed event)
-- Completed Activity (on Moodle completion event)
-- Scored Activity (on Moodle grading event)
+### Course Module Statements
+- Navigated-In Course Module (on Moodle viewed event)
+- Completed Course Module (on Moodle completion event)
+- Graded Course Module (on Moodle grading event)
 
 
 <a name="attempt-common-rules"></a>
@@ -667,15 +667,15 @@ This Statement is generated from the `\mod_scormlite\event\sco_result_updated` M
 
 
 <a name="passed-failed-sco-instructor"></a>
-## Passed/Failed SCO (Changed by Instructor)
+## Passed/Failed SCO (Forced by Instructor)
 
-This Statement is generated from the `\mod_scormlite\event\sco_result_changed` Moodle event, when an instructor manually changes the score of a learner.
+This Statement is generated from the `\mod_scormlite\event\sco_result_forced` Moodle event, when an instructor manually changes the score of a learner.
 
 - The `actor` property MUST be the learner.
 - The `result.success` property MUST be set according to the verb (`true` for a `passed` Statement, `false` for a `failed` Statement).
 - The `result.score` property MUST define the relevant score, including its `min`, `max`, `raw` and `scaled` values.
 - The `masteryscore` extension of the `context` MUST define the passing score of the activity.
-- The `context.instructor` property MUST define the instructor who changed the result.
+- The `context.instructor` property MUST define the instructor who forced the result.
 
 
 ```json
@@ -759,7 +759,7 @@ This Statement is generated from the `\mod_scormlite\event\sco_result_changed` M
         },
         "platform": "Moodle",
         "extensions": {
-            "http://vocab.xapi.fr/extensions/platform-event": "\\mod_scormlite\\event\\sco_result_changed",
+            "http://vocab.xapi.fr/extensions/platform-event": "\\mod_scormlite\\event\\sco_result_forced",
             "https://w3id.org/xapi/cmi5/context/extensions/masteryscore": 50
         }
     },

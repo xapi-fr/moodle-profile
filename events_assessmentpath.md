@@ -12,38 +12,38 @@
 <a name="statements"></a>
 ## Supported Statements
 
-### Attempt Statements
+### SCORM Lite / Attempt Statements
 - Launched Attempt
 - Initialized Attempt
 - Completed Attempt
 - Passed / Failed Attempt
 - Terminated Attempt
 
-### SCO Statements
+### SCORM Lite / SCO Statements
 - Passed/Failed SCO (obtained by learner)
-- Passed/Failed SCO (changed by instructor)
+- Passed/Failed SCO (forced by instructor)
 
-### Activity Statements
-- Navigated-In Activity (on Moodle viewed event)
-- Completed Activity (on Moodle completion event)
-- Scored Activity (on Moodle grading event)
+### Course Module Statements
+- Navigated-In Course Module (on Moodle viewed event)
+- Completed Course Module (on Moodle completion event)
+- Graded Course Module (on Moodle grading event)
 
 
 <a name="id"></a>
 ## Identification Schema
 
-- AssessmentPath activity: `<platform-iri>/xapi/activities/assessmentpath/<uuid>`
-- AssessmentPath step: `<platform-iri>/xapi/activities/assessmentpath/<uuid>/step/<step>`
-- AssessmentPath test: `<platform-iri>/xapi/activities/assessmentpath/<uuid>/step/<step>/<initial-or-remedial>`
+- AssessmentPath Course Module: `<platform-iri>/xapi/activities/assessmentpath/<uuid>`
+- AssessmentPath Step: `<platform-iri>/xapi/activities/assessmentpath/<uuid>/step/<step>`
+- AssessmentPath Test: `<platform-iri>/xapi/activities/assessmentpath/<uuid>/step/<step>/<initial-or-remedial>`
 - AssessmentPath SCO: `<platform-iri>/xapi/activities/assessmentpath/<uuid>/step/<step>/<initial-or-remedial>/sco`
 
 
 <a name="types"></a>
 ## Activity Types
 
-- AssessmentPath activity: `http://vocab.xapi.fr/activities/web-content`
-- AssessmentPath step: `http://vocab.xapi.fr/activities/training-sequence`
-- AssessmentPath test: `http://vocab.xapi.fr/activities/quiz`
+- AssessmentPath Course Module: `http://vocab.xapi.fr/activities/web-content`
+- AssessmentPath Step: `http://vocab.xapi.fr/activities/training-sequence`
+- AssessmentPath Test: `http://vocab.xapi.fr/activities/quiz`
 - AssessmentPath SCO: `http://vocab.xapi.fr/activities/content-object`
 
 
@@ -52,7 +52,7 @@
 
 SCORM Lite rules apply, except the following:
 
-- The `object` property MUST define the content object (SCO).
+- The `object.id` property MUST define the content object (SCO) ID following the AssessmentPath identification schema.
 - The `context.contextActivities.parent` property MUST include the AssessmentPath test.
 - The `context.contextActivities.grouping` property MUST include the AssessmentPath step.
 - The `context.contextActivities.grouping` property MUST include the AssessmentPath activity.

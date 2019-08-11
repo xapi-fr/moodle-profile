@@ -133,6 +133,12 @@
 - **platform-concept:** `survey`
 - **concept-family:** `feedback`
 
+### Training Path
+
+- **type:** `http://vocab.xapi.fr/activities/training-program`
+- **platform-concept:** `trainingpath`
+- **concept-family:** `resource`
+
 ### URL
 
 - **type:** `http://vocab.xapi.fr/activities/web-link`

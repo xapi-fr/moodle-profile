@@ -4,7 +4,7 @@
 
 - [Navigated-In Course](#nav-in-course)
 - [Navigated-In Course Category](#nav-in-course-category)
-- [Navigated-In Module](#nav-in-module)
+- [Navigated-In Course Module](#nav-in-module)
 
 
 <a name="nav-in-course"></a>
@@ -62,7 +62,7 @@ This Statement is generated from the `\core\event\course_viewed` Moodle event.
         },
         "platform": "Moodle",
         "extensions": {
-            "http://vocab.xapi.fr/extensions/platform-event": "\\core\\event\\user_loggedin"
+            "http://vocab.xapi.fr/extensions/platform-event": "\\core\\event\\course_viewed"
         }
     },
     "timestamp": "2018-06-20T16:04:17+08:00"
@@ -124,7 +124,7 @@ This Statement is generated from the `\core\event\course_category_viewed` Moodle
         },
         "platform": "Moodle",
         "extensions": {
-            "http://vocab.xapi.fr/extensions/platform-event": "\\core\\event\\user_loggedin"
+            "http://vocab.xapi.fr/extensions/platform-event": "\\core\\event\\course_category_viewed"
         }
     },
     "timestamp": "2018-06-20T16:04:17+08:00"
@@ -132,7 +132,7 @@ This Statement is generated from the `\core\event\course_category_viewed` Moodle
 ```
 
 <a name="nav-in-module"></a>
-## Navigated-In Module
+## Navigated-In Course Module
 
 This Statement is generated from the `\xxx\event\course_module_viewed` Moodle event, where `xxx` is the name of a Moodle module (e.g. `mod_book`, `mod_chat`, `mod_choice`, etc.).
 
@@ -203,7 +203,7 @@ This Statement is generated from the `\xxx\event\course_module_viewed` Moodle ev
         },
         "platform": "Moodle",
         "extensions": {
-            "http://vocab.xapi.fr/extensions/platform-event": "\\core\\event\\user_loggedin"
+            "http://vocab.xapi.fr/extensions/platform-event": "\\mod_scorm\\event\\course_module_viewed"
         }
     },
     "timestamp": "2018-06-20T16:04:18+08:00"

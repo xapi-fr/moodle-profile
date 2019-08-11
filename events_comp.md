@@ -4,7 +4,7 @@
 
 - [Common rules](#common-rules)
 - [Course Completed](#course-completed)
-- [Module Completed](#module-completed)
+- [Course Module Completed](#module-completed)
 
 
 <a name="common-rules"></a>
@@ -81,7 +81,7 @@ This Statement is generated from the `\core\event\course_completed` Moodle event
 
 
 <a name="module-completed"></a>
-## Module Completed
+## Course Module Completed
 
 This Statement is generated from the `\xxx\event\course_module_completion_updated` Moodle event when all the following conditions are met:
 - The completion is determined automatically.
@@ -118,7 +118,6 @@ This Statement is generated from the `\xxx\event\course_module_completion_update
         }
     },
     "result": {
-        "success": true,
         "completion": true
     },
     "context": {
