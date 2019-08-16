@@ -8,6 +8,7 @@
     - [> Navigation](/profiles/moodle/events_nav)
     - [> Completion](/profiles/moodle/events_comp)
     - [> Grading](/profiles/moodle/events_result)
+    - [> SCORM](/profiles/moodle/events_scorm)
     - [> Video](/profiles/moodle/events_vid)
     - [> H5P](/profiles/moodle/events_hvp)
     - [> SCORM Lite](/profiles/moodle/events_scormlite)

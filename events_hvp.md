@@ -21,10 +21,10 @@
 - Course Presentation Completed
 - Navigated-In Course Presentation
 
-### Activity Statements
-- Navigated-In Activity (on Moodle viewed event)
-- Completed Activity (on Moodle completion event)
-- Scored Activity (on Moodle grading event)
+### Course Module Statements
+- Navigated-In Course Module (on Moodle viewed event)
+- Completed Course Module (on Moodle completion event)
+- Graded Course Module (on Moodle grading event)
 
 
 <a name="common-rules"></a>
