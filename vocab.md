@@ -98,6 +98,7 @@
 
 ### Structural Activity
 
+- Consumer: `http://vocab.xapi.fr/activities/consumer`
 - Course: `http://vocab.xapi.fr/activities/course`
 - Course Category: `http://vocab.xapi.fr/activities/course-category`
 - System: `http://vocab.xapi.fr/activities/system`
