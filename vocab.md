@@ -28,6 +28,7 @@
 - **Passed** something: `http://adlnet.gov/expapi/verbs/passed`
 - **Failed** something: `http://adlnet.gov/expapi/verbs/failed`
 - **Scored** something: `http://adlnet.gov/expapi/verbs/scored`
+- **Graded** something: `http://adlnet.gov/expapi/verbs/graded`
 
 ### Execution Flow
 
