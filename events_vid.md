@@ -96,8 +96,20 @@
                     }
                 },
                 {
+                    "id": "http://vocab.xapi.fr/categories/moodle/trax-video",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
                     "objectType": "Activity",
                     "id": "https://w3id.org/xapi/video",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
+                    "id": "http://vocab.xapi.fr/categories/vle-profile",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"
                     }

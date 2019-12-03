@@ -121,6 +121,12 @@ This Statement is generated from the `\mod_scormlite\event\attempt_launched` Moo
                     }
                 },
                 {
+                    "id": "http://vocab.xapi.fr/categories/moodle/scormlite",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
                     "id": "http://vocab.xapi.fr/categories/vle-profile",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"
@@ -218,6 +224,12 @@ This Statement is generated from the `\mod_scormlite\event\attempt_initialized` 
                     "id": "http://vocab.xapi.fr/categories/inside-learning-unit",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/granularity-level"
+                    }
+                },
+                {
+                    "id": "http://vocab.xapi.fr/categories/moodle/scormlite",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
                     }
                 },
                 {
@@ -322,6 +334,12 @@ This Statement is generated from the `\mod_scormlite\event\attempt_completed` Mo
                     "id": "http://vocab.xapi.fr/categories/inside-learning-unit",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/granularity-level"
+                    }
+                },
+                {
+                    "id": "http://vocab.xapi.fr/categories/moodle/scormlite",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
                     }
                 },
                 {
@@ -430,6 +448,12 @@ This Statement is generated from the `\mod_scormlite\event\attempt_passed` and `
                     }
                 },
                 {
+                    "id": "http://vocab.xapi.fr/categories/moodle/scormlite",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
                     "id": "http://vocab.xapi.fr/categories/vle-profile",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"
@@ -523,6 +547,12 @@ This Statement is generated from the `\mod_scormlite\event\attempt_terminated` M
                     "id": "http://vocab.xapi.fr/categories/inside-learning-unit",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/granularity-level"
+                    }
+                },
+                {
+                    "id": "http://vocab.xapi.fr/categories/moodle/scormlite",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
                     }
                 },
                 {
@@ -643,6 +673,12 @@ This Statement is generated from the `\mod_scormlite\event\sco_result_updated` M
                     }
                 },
                 {
+                    "id": "http://vocab.xapi.fr/categories/moodle/scormlite",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
                     "id": "http://vocab.xapi.fr/categories/vle-profile",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"
@@ -743,6 +779,12 @@ This Statement is generated from the `\mod_scormlite\event\sco_result_forced` Mo
                     }
                 },
                 {
+                    "id": "http://vocab.xapi.fr/categories/moodle/scormlite",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
                     "id": "http://vocab.xapi.fr/categories/vle-profile",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"
@@ -830,6 +872,12 @@ This Statement is generated from the `\mod_scormlite\event\sco_result_reset` Moo
                     "id": "http://vocab.xapi.fr/categories/learning-unit",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/granularity-level"
+                    }
+                },
+                {
+                    "id": "http://vocab.xapi.fr/categories/moodle/scormlite",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
                     }
                 },
                 {

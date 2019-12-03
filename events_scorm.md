@@ -89,6 +89,12 @@ This Statement is generated from the `\mod_scorm\event\sco_launched` Moodle even
                     }
                 },
                 {
+                    "id": "http://vocab.xapi.fr/categories/moodle/scorm",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
                     "id": "http://vocab.xapi.fr/categories/vle-profile",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"

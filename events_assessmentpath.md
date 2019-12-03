@@ -246,6 +246,12 @@ SCORM Lite rules apply, except the following:
                     }
                 },
                 {
+                    "id": "http://vocab.xapi.fr/categories/moodle/assessmentpath",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
                     "id": "http://vocab.xapi.fr/categories/vle-profile",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"

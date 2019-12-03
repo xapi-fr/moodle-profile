@@ -196,6 +196,20 @@
 - **platform-concept:** `hvp-column`
 - **concept-family:** `resource`
 
+### Trax Launch
+
+- **type:** `http://vocab.xapi.fr/activities/web-content`
+- **platform-concept:** `trax-launch`
+- **concept-family:** `resource`
+- **standard:** `xapi`
+
+### Trax Video
+
+- **type:** `http://vocab.xapi.fr/activities/resources`
+- **platform-concept:** `trax-video`
+- **concept-family:** `resource`
+- **standard:** `xapi`
+
 
 <a name="structural"></a>
 ## Structural Activity
@@ -208,7 +222,7 @@
 ### Course Category
 
 - **type:** `http://vocab.xapi.fr/activities/course-category`
-- **platform-concept:** `course_category`
+- **platform-concept:** `course-category`
 
 
 

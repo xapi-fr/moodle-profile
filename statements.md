@@ -49,18 +49,31 @@
 ## Learning Unit
 
 - The `platform-concept` extension of the `object` MUST be defined. 
+
 - The `concept-family` extension of the `object` MUST be defined.
+
 - The `standard` extension of the `object` MAY be defined if the activity conforms to a standard (e.g. `scorm`, `lti`).
+
 - The `context.contextActivities.parent` property MUST define the Moodle course which contains the learning unit.  
+
 - The `context.contextActivities.grouping` property MUST include the system activity. 
+
 - The `context.contextActivities.category` property MUST include a granularity activity with `type` set to `http://vocab.xapi.fr/activities/granularity-level` and `id` set to `http://vocab.xapi.fr/categories/learning-unit`.
+
+- The `context.contextActivities.category` property MAY include a profile activity identifying the type of course module (e.g. `http://vocab.xapi.fr/categories/moodle/scorm`). The last chunk of the ID matches with the `platform-concept` extension (see http://doc.xapi.fr/profiles/moodle/concepts). 
 
 
 <a name="inside-learning-unit"></a>
 ## Inside Learning Unit
 
 - The `context.contextActivities.parent` property MUST define the direct parent activity in which the event occurs. It MAY be a Moodle course module, or a sub-activity of the course module.
+
 - The `context.contextActivities.grouping` property MUST include the system activity.
+
 - The `context.contextActivities.grouping` property MUST include the Moodle course which contains the learning unit.
+
 - The `context.contextActivities.grouping` property MUST include the Moodle course module if it not already included in the `context.contextActivities.parent` property. 
+
 - The `context.contextActivities.category` property MUST include a granularity activity with `type` set to `http://vocab.xapi.fr/activities/granularity-level` and `id` set to `http://vocab.xapi.fr/categories/inside-learning-unit`.
+
+- The `context.contextActivities.category` property MUST include a profile activity identifying the type of course module (e.g. `http://vocab.xapi.fr/categories/moodle/scorm`). The last chunk of the ID matches with the `platform-concept` extension (see http://doc.xapi.fr/profiles/moodle/concepts). 

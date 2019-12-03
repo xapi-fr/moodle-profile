@@ -187,6 +187,12 @@ This Statement is generated from the `\core\event\course_module_viewed` event (m
                     }
                 },
                 {
+                    "id": "http://vocab.xapi.fr/categories/moodle/trainingpath",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
                     "id": "http://vocab.xapi.fr/categories/vle-profile",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"
@@ -273,6 +279,12 @@ This Statement is generated from the `\mod_trainingpath\event\item_viewed` event
                     "id": "http://vocab.xapi.fr/categories/inside-learning-unit",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/granularity-level"
+                    }
+                },
+                {
+                    "id": "http://vocab.xapi.fr/categories/moodle/trainingpath",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
                     }
                 },
                 {
@@ -388,6 +400,12 @@ This Statement is generated from the `\mod_trainingpath\event\item_completed` ev
                     "id": "http://vocab.xapi.fr/categories/inside-learning-unit",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/granularity-level"
+                    }
+                },
+                {
+                    "id": "http://vocab.xapi.fr/categories/moodle/trainingpath",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
                     }
                 },
                 {
@@ -512,6 +530,12 @@ This Statement is generated from the `\mod_trainingpath\event\item_result_update
                     "id": "http://vocab.xapi.fr/categories/inside-learning-unit",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/granularity-level"
+                    }
+                },
+                {
+                    "id": "http://vocab.xapi.fr/categories/moodle/trainingpath",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
                     }
                 },
                 {

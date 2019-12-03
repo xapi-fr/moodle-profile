@@ -124,6 +124,12 @@ Its granularity level MUST be `inside-learning-unit` and its object type is alwa
                     }
                 },
                 {
+                    "id": "http://vocab.xapi.fr/categories/moodle/hvp",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
                     "id": "http://vocab.xapi.fr/categories/vle-profile",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"
@@ -213,6 +219,12 @@ or `inside-learning-unit` (when the Summary is embedded inside the H5P activity)
                     "id": "http://vocab.xapi.fr/categories/learning-unit",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/granularity-level"
+                    }
+                },
+                {
+                    "id": "http://vocab.xapi.fr/categories/moodle/hvp",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
                     }
                 },
                 {
@@ -309,6 +321,12 @@ or `inside-learning-unit` (when the Quiz is embedded inside the H5P activity).
                     }
                 },
                 {
+                    "id": "http://vocab.xapi.fr/categories/moodle/hvp",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
                     "id": "http://vocab.xapi.fr/categories/vle-profile",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"
@@ -401,6 +419,12 @@ or `inside-learning-unit` (when the Quiz is embedded inside the H5P activity).
                     }
                 },
                 {
+                    "id": "http://vocab.xapi.fr/categories/moodle/hvp",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
+                    }
+                },
+                {
                     "id": "http://vocab.xapi.fr/categories/vle-profile",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"
@@ -480,6 +504,12 @@ or `inside-learning-unit` (when the Quiz is embedded inside the H5P activity).
                     "id": "http://vocab.xapi.fr/categories/learning-unit",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/granularity-level"
+                    }
+                },
+                {
+                    "id": "http://vocab.xapi.fr/categories/moodle/hvp",
+                    "definition": {
+                        "type": "http://adlnet.gov/expapi/activities/profile"
                     }
                 },
                 {
