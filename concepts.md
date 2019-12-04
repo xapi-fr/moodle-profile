@@ -224,6 +224,11 @@
 - **type:** `http://vocab.xapi.fr/activities/course-category`
 - **platform-concept:** `course-category`
 
+### Course Section
+
+- **type:** `http://vocab.xapi.fr/activities/course-section`
+- **platform-concept:** `course-section`
+
 
 
 

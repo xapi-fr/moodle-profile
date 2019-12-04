@@ -22,6 +22,7 @@
 ### Completion
 
 - **Completed** something: `http://adlnet.gov/expapi/verbs/completed`
+- **Marked completion** status of an activity: `http://vocab.xapi.fr/verbs/marked-completion`
 
 ### Result
 
@@ -38,7 +39,10 @@
 
 ### Management Flow
 
+- **Defined** something (e.g. course, group): `http://id.tincanapi.com/verb/defined`
+- **Registered** a learner to a course: `http://adlnet.gov/expapi/verbs/registered`
 - **Reset** learner results: `http://vocab.xapi.fr/verbs/reset`
+
 
 
 <a name="activities"></a>
@@ -102,6 +106,7 @@
 - Consumer: `http://vocab.xapi.fr/activities/consumer`
 - Course: `http://vocab.xapi.fr/activities/course`
 - Course Category: `http://vocab.xapi.fr/activities/course-category`
+- Course Section: `http://vocab.xapi.fr/activities/course-section`
 - System: `http://vocab.xapi.fr/activities/system`
 
 
@@ -119,6 +124,7 @@
 ### Activity Extensions
 
 - Concept Family: `http://vocab.xapi.fr/extensions/concept-family`
+- Course Structure: `http://vocab.xapi.fr/extensions/course-structure`
 - Platform Concept: `http://vocab.xapi.fr/extensions/platform-concept`
 - Standard: `http://vocab.xapi.fr/extensions/standard`
 - Duration: `http://id.tincanapi.com/extension/duration`
@@ -147,5 +153,5 @@
 - Learner: `http://vocab.xapi.fr/extensions/learner`
 - Page: `http://vocab.xapi.fr/extensions/page`
 - Platform Event: `http://vocab.xapi.fr/extensions/platform-event`
-
+- User Role: `http://vocab.xapi.fr/extensions/user-role`
 

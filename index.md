@@ -4,6 +4,7 @@
     - [Vocabulary](/profiles/moodle/vocab)
     - [Concepts](/profiles/moodle/concepts)
     - [Statements](/profiles/moodle/statements)
+    - [> Management](/profiles/moodle/events_management)
     - [> Authentication](/profiles/moodle/events_auth)
     - [> Navigation](/profiles/moodle/events_nav)
     - [> Completion](/profiles/moodle/events_comp)
