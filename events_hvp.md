@@ -93,7 +93,6 @@ Its granularity level MUST be `inside-learning-unit` and its object type is alwa
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/hvp/86e15642-5e46-45c2-8fd2-7c88d2e37edf",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/quiz"
@@ -102,14 +101,12 @@ Its granularity level MUST be `inside-learning-unit` and its object type is alwa
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"
                     }
                 },
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/course/54b9d6f3-c14b-4abf-b613-f5e5fb5ecd40",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
@@ -198,7 +195,6 @@ or `inside-learning-unit` (when the Summary is embedded inside the H5P activity)
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/course/54b9d6f3-c14b-4abf-b613-f5e5fb5ecd40",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
@@ -207,7 +203,6 @@ or `inside-learning-unit` (when the Summary is embedded inside the H5P activity)
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"
@@ -297,7 +292,6 @@ or `inside-learning-unit` (when the Quiz is embedded inside the H5P activity).
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/course/54b9d6f3-c14b-4abf-b613-f5e5fb5ecd40",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
@@ -306,7 +300,6 @@ or `inside-learning-unit` (when the Quiz is embedded inside the H5P activity).
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"
@@ -395,7 +388,6 @@ or `inside-learning-unit` (when the Quiz is embedded inside the H5P activity).
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/course/54b9d6f3-c14b-4abf-b613-f5e5fb5ecd40",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
@@ -404,7 +396,6 @@ or `inside-learning-unit` (when the Quiz is embedded inside the H5P activity).
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"
@@ -483,7 +474,6 @@ or `inside-learning-unit` (when the Quiz is embedded inside the H5P activity).
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/course/54b9d6f3-c14b-4abf-b613-f5e5fb5ecd40",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
@@ -492,7 +482,6 @@ or `inside-learning-unit` (when the Quiz is embedded inside the H5P activity).
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"

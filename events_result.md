@@ -69,7 +69,6 @@ This Statement is generated from the `\xxx\event\user_graded` Moodle event when 
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/course/ba297687-b1aa-4477-9efd-a782c8fdb90a",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
@@ -78,7 +77,6 @@ This Statement is generated from the `\xxx\event\user_graded` Moodle event when 
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"

@@ -163,7 +163,6 @@ This Statement is generated from the `\core\event\course_module_viewed` event (m
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/course/ba297687-b1aa-4477-9efd-a782c8fdb90a",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
@@ -172,7 +171,6 @@ This Statement is generated from the `\core\event\course_module_viewed` event (m
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"
@@ -251,7 +249,6 @@ This Statement is generated from the `\mod_trainingpath\event\item_viewed` event
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/trainingpath/86e15642-5e46-45c2-8fd2-7c88d2e37edf",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/training-program"
@@ -260,14 +257,12 @@ This Statement is generated from the `\mod_trainingpath\event\item_viewed` event
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/course/ba297687-b1aa-4477-9efd-a782c8fdb90a",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
                     }
                 },
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"
@@ -372,7 +367,6 @@ This Statement is generated from the `\mod_trainingpath\event\item_completed` ev
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/trainingpath/86e15642-5e46-45c2-8fd2-7c88d2e37edf",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/training-program"
@@ -381,14 +375,12 @@ This Statement is generated from the `\mod_trainingpath\event\item_completed` ev
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/course/ba297687-b1aa-4477-9efd-a782c8fdb90a",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
                     }
                 },
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"
@@ -481,7 +473,6 @@ This Statement is generated from the `\mod_trainingpath\event\item_result_update
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/trainingpath/86e15642-5e46-45c2-8fd2-7c88d2e37edf/sequence/d0d6cd21-5e46-45c2-8fd2-affdea1a1d84",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/training-sequence"
@@ -490,35 +481,30 @@ This Statement is generated from the `\mod_trainingpath\event\item_result_update
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/trainingpath/86e15642-5e46-45c2-8fd2-7c88d2e37edf/phase/d0d6cd21-5e46-45c2-8fd2-affdea1a1d84",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/training-phase"
                     }
                 },
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/trainingpath/86e15642-5e46-45c2-8fd2-7c88d2e37edf/theme/d0d6cd21-5e46-45c2-8fd2-affdea1a1d84",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/training-module"
                     }
                 },
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/trainingpath/86e15642-5e46-45c2-8fd2-7c88d2e37edf",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/training-program"
                     }
                 },
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/course/ba297687-b1aa-4477-9efd-a782c8fdb90a",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
                     }
                 },
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"

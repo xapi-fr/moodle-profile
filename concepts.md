@@ -199,14 +199,14 @@
 ### Trax Launch
 
 - **type:** `http://vocab.xapi.fr/activities/web-content`
-- **platform-concept:** `trax-launch`
+- **platform-concept:** `traxlaunch`
 - **concept-family:** `resource`
 - **standard:** `xapi`
 
 ### Trax Video
 
 - **type:** `http://vocab.xapi.fr/activities/resources`
-- **platform-concept:** `trax-video`
+- **platform-concept:** `traxvideo`
 - **concept-family:** `resource`
 - **standard:** `xapi`
 

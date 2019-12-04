@@ -44,7 +44,6 @@ This Statement is generated from the `\core\event\course_viewed` Moodle event.
         "contextActivities": {
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"
@@ -106,7 +105,6 @@ This Statement is generated from the `\core\event\course_category_viewed` Moodle
         "contextActivities": {
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"
@@ -170,7 +168,6 @@ This Statement is generated from the `\xxx\event\course_module_viewed` Moodle ev
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test/xapi/activities/course/ba297687-b1aa-4477-9efd-a782c8fdb90a",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
@@ -179,7 +176,6 @@ This Statement is generated from the `\xxx\event\course_module_viewed` Moodle ev
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://xapi.moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"

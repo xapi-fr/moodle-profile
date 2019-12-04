@@ -64,7 +64,6 @@
         "contextActivities": {
             "parent": [
                 {
-                    "objectType": "Activity",
                     "id": "http://moodle.test/xapi/activities/traxvideo/ab9d2fb0-3081-429f-8bd4-7cedec429af7",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/resources"
@@ -73,14 +72,12 @@
             ],
             "grouping": [
                 {
-                    "objectType": "Activity",
                     "id": "http://moodle.test",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/system"
                     }
                 },
                 {
-                    "objectType": "Activity",
                     "id": "http://moodle.test/xapi/activities/course/738a5680-b46f-478d-9418-4e4aba7fb79a",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/course"
@@ -89,20 +86,18 @@
             ],
             "category": [
                 {
-                    "objectType": "Activity",
                     "id": "http://vocab.xapi.fr/categories/inside-learning-unit",
                     "definition": {
                         "type": "http://vocab.xapi.fr/activities/granularity-level"
                     }
                 },
                 {
-                    "id": "http://vocab.xapi.fr/categories/moodle/trax-video",
+                    "id": "http://vocab.xapi.fr/categories/moodle/traxvideo",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"
                     }
                 },
                 {
-                    "objectType": "Activity",
                     "id": "https://w3id.org/xapi/video",
                     "definition": {
                         "type": "http://adlnet.gov/expapi/activities/profile"
