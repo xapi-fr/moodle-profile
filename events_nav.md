@@ -89,7 +89,7 @@ This Statement is generated from the `\core\event\course_category_viewed` Moodle
         "objectType": "Activity",
         "id": "http://xapi.moodle.test/xapi/activities/course_category/ba297687-b1aa-4477-9efd-a782c8fdb90a",
         "definition": {
-            "type": "http://vocab.xapi.fr/activities/course_category",
+            "type": "http://vocab.xapi.fr/activities/course-category",
             "name": {
                 "en": "Course category 1"
             },
@@ -97,7 +97,7 @@ This Statement is generated from the `\core\event\course_category_viewed` Moodle
                 "en": "Course category 1 description"
             },
             "extensions": {
-                "http://vocab.xapi.fr/extensions/platform-concept": "course_category"
+                "http://vocab.xapi.fr/extensions/platform-concept": "course-category"
             }
         }
     },
