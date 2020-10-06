@@ -127,6 +127,9 @@ This Statement is generated from the `\mod_forum\event\discussion_created` Moodl
             "type": "http://id.tincanapi.com/activitytype/forum-topic",
             "name": {
                 "en": "Forum discussion"
+            },
+            "description": {
+                "en": "Message to introduce the discussion..."
             }
         }
     },
@@ -211,7 +214,7 @@ This Statement is generated from the `\mod_forum\event\post_created` Moodle even
                 "en": "Re: Forum discution"
             },
             "description": {
-                "en": "<p>Message with some HTML formating</p>"
+                "en": "Message posted in the discussion..."
             }
         }
     },
