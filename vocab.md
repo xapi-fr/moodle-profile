@@ -18,6 +18,7 @@
 ### Navigation
 
 - **Navigated-in** the platform: `http://vocab.xapi.fr/verbs/navigated-in`
+- **Viewed** something (e.g. discussion): `http://id.tincanapi.com/verb/viewed`
 
 ### Completion
 
@@ -30,6 +31,10 @@
 - **Failed** something: `http://adlnet.gov/expapi/verbs/failed`
 - **Scored** something: `http://adlnet.gov/expapi/verbs/scored`
 - **Graded** something: `http://adlnet.gov/expapi/verbs/graded`
+
+### Interaction
+
+- **Created** something (e.g. discussion): `https://w3id.org/xapi/dod-isd/verbs/created`
 
 ### Execution Flow
 
@@ -64,7 +69,8 @@
 - Chat Channel: `http://id.tincanapi.com/activitytype/chat-channel`
 - Chat Room: `http://vocab.xapi.fr/activities/chat-room`
 - Forum: `http://vocab.xapi.fr/activities/forum`
-- Forum Discussion: `http://id.tincanapi.com/activitytype/discussion`
+- Forum Topic: `http://id.tincanapi.com/activitytype/forum-topic`
+- Forum Reply: `http://id.tincanapi.com/activitytype/forum-reply`
 
 **Production**
 
