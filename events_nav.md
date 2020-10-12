@@ -134,6 +134,9 @@ This Statement is generated from the `\core\event\course_category_viewed` Moodle
 
 This Statement is generated from the `\xxx\event\course_module_viewed` Moodle event, where `xxx` is the name of a Moodle module (e.g. `mod_book`, `mod_chat`, `mod_choice`, etc.).
 
+The `user-role` context extension MAY define the role of the user in the context of the activity (e.g. teacher)
+when and only when this role defers from a larger context.
+
 ```json
 {
     "actor": {
@@ -199,7 +202,8 @@ This Statement is generated from the `\xxx\event\course_module_viewed` Moodle ev
         },
         "platform": "Moodle",
         "extensions": {
-            "http://vocab.xapi.fr/extensions/platform-event": "\\mod_scorm\\event\\course_module_viewed"
+            "http://vocab.xapi.fr/extensions/platform-event": "\\mod_scorm\\event\\course_module_viewed",
+            "http://vocab.xapi.fr/extensions/user-role": "teacher"
         }
     },
     "timestamp": "2018-06-20T16:04:18+08:00"

@@ -63,14 +63,13 @@
 - Web Content: `http://vocab.xapi.fr/activities/web-content`
 - Web Page: `http://vocab.xapi.fr/activities/web-page`
 - Web Link: `http://vocab.xapi.fr/activities/web-link`
+- Annotation: `http://vocab.xapi.fr/activities/annotation`
 
 **Discussion**
 
 - Chat Channel: `http://id.tincanapi.com/activitytype/chat-channel`
 - Chat Room: `http://vocab.xapi.fr/activities/chat-room`
 - Forum: `http://vocab.xapi.fr/activities/forum`
-- Forum Topic: `http://id.tincanapi.com/activitytype/forum-topic`
-- Forum Reply: `http://id.tincanapi.com/activitytype/forum-reply`
 
 **Production**
 
@@ -96,6 +95,11 @@
 **SCORM**
 
 - Content Object (SCO): `http://vocab.xapi.fr/activities/content-object`
+
+**Forum**
+
+- Forum Topic: `http://id.tincanapi.com/activitytype/forum-topic`
+- Forum Reply: `http://id.tincanapi.com/activitytype/forum-reply`
 
 **Training Path**
 

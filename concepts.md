@@ -90,6 +90,12 @@
 - **concept-family:** `resource`
 - **standard:** `imscp`
 
+### Label
+
+- **type:** `http://vocab.xapi.fr/activities/annotation`
+- **platform-concept:** `label`
+- **concept-family:** `resource`
+
 ### Lesson
 
 - **type:** `http://vocab.xapi.fr/activities/web-content`
